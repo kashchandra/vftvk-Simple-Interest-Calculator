@@ -1,4 +1,41 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family: arial;
+    color: white;
+}
 
+h1{
+    color:grey;
+    font-family: verdana;
+    width: 100%;
+}
 
+.maindiv {
+ /*   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto; */
+    background-color: white;
+    color: black;
+    width: 480px;
+    height: auto;
+    padding: 20px;
+    border-radius: 25px;
+    margin:0 auto;    
+}
+form {
+    width: 65%;
+margin: 0 auto;
+}
+label {
+        width: 100px;
+        display: inline-block;
+        text-align: left;
+    }
+footer {
+    width: 100%;
+    text-align: left;
+}
+.highlight {
+    color: orange;
+}
